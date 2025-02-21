@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Fanzal Rivaldi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portofolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section">
+        <div class="container home-content">
+            <img src="profile.jpg" alt="Foto Saya" class="profile-pic">
+            <div class="text">
+                <h1>Halo, Welcome to My Portofolio</h1>
+                <p>Saya Muhammad Fanzal Rivaldi, Seorang profesional di bidang saya.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>ABOUT ME</h2>
+                <p>Saya adalah seorang mahasiwa informatika universitas Syiah Kuala. Saya mempelajari berbagai aspek teknologi informasi, pemrograman, dan sistem komputer. Selain dekat dengan berbagai teknologi, saya memiliki hoby dalam filmmaker dan sejenisnya</p>
+                <ul>
+                    <li><strong>Keahlian:</strong> Web Development, Film Maker, Pilot Drone</li>
+                    <li><strong>Pendidikan:</strong> S1 Informatika</li>
+                    <li><strong>Pengalaman:</strong> 5+ Tahun dalam dunia photography</li>
+                </ul>
+            </div>
+            <img src="about.jpg" alt="Tentang Saya" class="about-img">
+        </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section id="portofolio" class="section">
+        <div class="container portofolio-content">
+            <div class="portofolio-text">
+            <h2>PORTOFOLIO</h2>
+            <p>Beberapa keahlian saya.</p>
+            <div class="skills">
+                <div class="skill">
+                    <img src="webdeveloper.jpg" alt="Web Developer">
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="skill">
+                    <img src="filmmaker.jpg" alt="Film Maker">
+                    <h3>Film Maker</h3>
+                </div>
+                <div class="skill">
+                    <img src="pilotdrone.jpg" alt="Pilot Drone">
+                    <h3>Pilot Drone</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container contact-content">
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <p>Hubungi saya melalui form berikut.</p>
+                <form action="mailto:fanzalmtg@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+
+            <div class="contact-social">
+                <h2>My Social Media</h2>
+                <div class="social-icons">
+                    <a href="https://wa.me/6281228848754" class="fa-brands fa-whatsapp" target="_blank"></a>
+                    <a href="https://www.instagram.com/fanzalrivaldi_" class="fa-brands fa-instagram" target="_blank"></a>
+                    <a href="https://www.tiktok.com/@panjal_" class="fa-brands fa-tiktok" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Muhammad Fanzal Rivaldi. Portofolio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
